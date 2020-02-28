@@ -1,4 +1,6 @@
-# 1. Anaconda installation & setting
+# Anaconda 설치
+
+## 1. Anaconda installation & setting
 
 [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/) 사이트를 통해서 최신버전 bash 스크립트를 복사해 놓는다.
 
@@ -48,7 +50,6 @@ conda install nb_conda #나중에 Jupyter Notebook에서 새로 만든 환경들
 
 Python3.7 & tensorflow1.14-gpu 구성된 가상환경을 구성한다.
 
-
 ```bash
 (base)conda create --name py37tf114 python=3.7 #python 3.7version env 생성
 (base)conda env list                           #py37tf114 env 확인
@@ -70,17 +71,14 @@ conda install pygpu
 ```bash
 pip list | grep <package name>
 ```
-<br>
 
-Ref : 
+Ref :
+
 * [https://nagy.tistory.com/26](https://nagy.tistory.com/26)
 * [https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 * [https://deepcell.co.kr/92](https://deepcell.co.kr/92)
 
-
-<br>
-
-# 2. Numpy error Issue
+## 2. Numpy error Issue
 
 numpy version으로 인해서 error message가 발생하여 numpy version을 낮은 걸로 재설치 한다.
 
@@ -89,6 +87,4 @@ numpy version으로 인해서 error message가 발생하여 numpy version을 낮
 (py37tf114)pip uninstall numpy         #numpy 제거
 (py37tf114)pip install numpy==1.16.5   #낮은 버전으로 다시 설치
 ```
-<br>
-
 

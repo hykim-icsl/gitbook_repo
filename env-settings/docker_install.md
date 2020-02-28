@@ -1,4 +1,6 @@
-# 1. Docker Installation
+# Docker 설치 및 옵션
+
+## 1. Docker Installation
 
 ```bash
 sudo apt update
@@ -11,14 +13,14 @@ sudo apt install docker-ce
 sudo systemctl status docker
 ```
 
-# 2. Docker Container 실행 방법
+## 2. Docker Container 실행 방법
 
 ```bash
 docker run [OPTIONS] IMAGE[:TAG] [COMMAND]
 # ex) docker run -it ubuntu:18.04 /bin/bash
 ```
 
-# 3. Docker Options
+## 3. Docker Options
 
 -d : background mode  
 -p : connecting port between host and container  

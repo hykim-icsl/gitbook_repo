@@ -1,3 +1,5 @@
+# 1. Version check
+
 ## Tensorflow version check
 
 ```bash
@@ -22,4 +24,5 @@ $nvcc --version # Driver API version CUDA toolkit installer
 $nvdia-smi # Runtime API version by GPU driver
 ```
 
-Ref : <https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi>
+Ref : [https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi)
+
