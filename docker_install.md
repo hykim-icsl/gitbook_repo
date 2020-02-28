@@ -1,4 +1,4 @@
-# Docker installation
+# Docker 설치 및 옵션
 
 ```bash
 sudo apt update
@@ -20,7 +20,7 @@ ex)
 $docker run -it ubuntu:18.04 /bin/bash
 ```
 
-## 2. Docker Options  
+## 2. Docker Options
 
 -d : background mode  
 -p : connecting port between host and container  
@@ -29,4 +29,5 @@ $docker run -it ubuntu:18.04 /bin/bash
 --name : naming container  
 --rm : deleting container when process exits  
 --it : for terminal input  
---link : connecting container [container name:nickname]  
+--link : connecting container \[container name:nickname\]
+
