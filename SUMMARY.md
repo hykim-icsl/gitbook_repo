@@ -8,12 +8,12 @@
 
 ## env settings
 
-* [Installation]
-  * [Docker 설치 및 옵션](env-settings/docker_install.md)
-  * [Anaconda 설치](env-settings/anaconda_install.md)
-  * [X2go 설치](env-settings/x2goindocker.md)
-* [TensorRT container 사용하기](env-settings/tensorrt_docker.md)
-  
+* Install
+  * [Docker Install](env-settings/docker_install.md)
+  * [Anaconda Install](env-settings/anaconda_install.md)
+  * [X2go Install](env-settings/x2goindocker.md)
+* [TensorRT container](env-settings/tensorrt_docker.md)
+
 ## RadioML
 
 * [RadioML 설치](env-settings/radioml.md)
