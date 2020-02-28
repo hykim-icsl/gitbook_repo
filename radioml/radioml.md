@@ -92,8 +92,6 @@ Modulation classification을 하기 위한 dataset을 구하는 방법
 
 여기서는 generation code를 사용해 data set을 생성해서 사용하는 방법을 기술한다.
 
-<br>
-
 ## 6.1 clone data set generation file & install packages
 radioML/dataset repository를 clone하고, data set을 생성할 수 있도록 gnuradio와 몇가지 패키지를 설치한다.
 
@@ -103,8 +101,6 @@ apt-get install gnuradio
 apt-get install doxygen #gr-mapper를 설치할 때 필요하니 미리 설치해둔다
 apt-get install swig
 ```
-
-<br>
 
 ## 6.2 generate\_RML2016.04c.py으로 dataset을 생성하기 이전에 준비과정
 
@@ -124,17 +120,18 @@ ldconfig
 
 **2. gr-mediatools module을 설치 \(현재 폴더 하나 상위폴더에서 진행\)**
 
-   ```bash
-   git clone https://github.com/osh/gr-mediatools
-   cd gr-mediatools && mkdir build && cd build
-   cmake ..
-   make
-   make install
-   ldconfig
-   ```
+```bash
+git clone https://github.com/osh/gr-mediatools
+cd gr-mediatools && mkdir build && cd build
+cmake ..
+make
+make install
+ldconfig
+```
 
-   Make 부분에서 에러가 많이 발생하기 때문에 다음과 같이 해결한다.  mediatools\_audiosource\_impl.cc 파일에서 아래와 같이 변경한다.  
-   d\_frame = avcodec\_alloc\_frame\(\); -> d\_frame = av\_frame\_alloc\(\);
+Make 부분에서 에러가 많이 발생하기 때문에 다음과 같이 해결한다.  
+mediatools\_audiosource\_impl.cc 파일에서 아래와 같이 변경한다.  
+d\_frame = avcodec\_alloc\_frame\(\); -> d\_frame = av\_frame\_alloc\(\);
 
 아래 패키지들을 추가적으로 설치한다.
 
@@ -145,7 +142,7 @@ make install
 ldconfig
 ```
 
-**3. Data generation에 사용되는 source_material**
+**3. Data generation에 사용되는 source_material**  
 
 Data generation에 사용되는 source_material을 clone한다.
 ```bash

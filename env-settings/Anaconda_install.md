@@ -70,6 +70,13 @@ conda install pygpu
 ```bash
 pip list | grep <package name>
 ```
+<br>
+
+Ref : 
+* [https://nagy.tistory.com/26](https://nagy.tistory.com/26)
+* [https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
+* [https://deepcell.co.kr/92](https://deepcell.co.kr/92)
+
 
 <br>
 
@@ -84,10 +91,4 @@ numpy version으로 인해서 error message가 발생하여 numpy version을 낮
 ```
 <br>
 
-# 3. Rerference
 
-* [https://nagy.tistory.com/26](https://nagy.tistory.com/26)
-* [https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
-* [https://deepcell.co.kr/92](https://deepcell.co.kr/92)
-
-<br>

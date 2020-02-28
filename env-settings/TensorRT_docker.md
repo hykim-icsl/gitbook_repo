@@ -1,8 +1,4 @@
-# TensorRT Docker container를 사용하는 이유
-
-내용작성 필요
-<br><br>
-
+# TensorRT Docker container
 TensorRT docker container를 사용하기 위해서는 Docker가 설치되어 있어야 한다.  
 Docker 설치는 아래 글을 참고하도록 하자.  
 [Docker 설치 링크](/env-settings/docker_install.md)
@@ -43,7 +39,7 @@ apt --purge autoremove nvidia*
 
 Ref : <https://codechacha.com/ko/install-nvidia-driver-ubuntu/>
 
-<br><br>
+<br>
 
 # 2.Nvidia container toolkit install
 
@@ -61,7 +57,7 @@ sudo systemctl restart docker
 
 Ref : <https://github.com/NVIDIA/nvidia-docker>
 
-<br><br>
+<br>
 
 # 3.TensorRT Container pull & run
 
@@ -75,9 +71,7 @@ $docker run --gpus all -it --rm nvcr.io/nvidia/tensorrt:18.08-py<x>
 
 Ref : <https://docs.nvidia.com/deeplearning/sdk/tensorrt-container-release-notes/running.html#running>
 
-<br><br>
+<br>
 
-
-# 4. 기타 내용
-
+# 4. etc
 * docker 19.03 이후 버전에서는 nvidia-docker 명령어 사용할 필요 없이 docker 명령어로 사용하면 된다. [https://github.com/NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker)

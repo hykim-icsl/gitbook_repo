@@ -1,13 +1,3 @@
----
-title: "Version check"
-permalink: /Version_check/
-layout: single
----
-
-markdown preview = ctrl+k v or crtl+shift+V  
-
-<https://brunch.co.kr/@gdhan#articles>
-
 ## Tensorflow version check
 
 ```bash
