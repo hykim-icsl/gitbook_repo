@@ -87,10 +87,12 @@ Ref : https://data-newbie.tistory.com/113
 # 6. radioML data set generation
 
 Modulation classification을 하기 위한 dataset을 구하는 방법
- 1. [RadioML 홈페이지](https://www.deepsig.io/datasets)에서 data set을 다운받아서 사용 
- 2. radioML git 페이지에서 dataset generation code을 통해 data set을 생성해서 사용
+- [RadioML 홈페이지](https://www.deepsig.io/datasets)에서 data set을 다운받아서 사용
+- radioML git 페이지에서 dataset generation code을 통해 data set을 생성해서 사용
 
 여기서는 generation code를 사용해 data set을 생성해서 사용하는 방법을 기술한다.
+
+<br>
 
 ## 6.1 clone data set generation file & install packages
 radioML/dataset repository를 clone하고, data set을 생성할 수 있도록 gnuradio와 몇가지 패키지를 설치한다.
@@ -101,6 +103,8 @@ apt-get install gnuradio
 apt-get install doxygen #gr-mapper를 설치할 때 필요하니 미리 설치해둔다
 apt-get install swig
 ```
+
+<br>
 
 ## 6.2 generate\_RML2016.04c.py으로 dataset을 생성하기 이전에 준비과정
 
