@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Introduction](README.md)
-
 ## Commands/Shortcut
 
-* [Version check](commands-shortcut/version_check.md)
+* Commands
+    * [git commands](commands-shortcut/git_commands.md)
+    * [Version check](commands-shortcut/version_check.md)
 
 ## GNU Radio 
 
