@@ -19,6 +19,7 @@
 
 * Basic
   * [Deeplearning 용어정리](DL_study/DL_definitions.md)
+  * [NeuralNet](DL_study/Neuralnet.md)
 
 
 ## Embedded

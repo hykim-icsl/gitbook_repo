@@ -47,6 +47,7 @@
 - Softmax : n개의 결과값을 도출하는 경우 총합이 1이 되면서 가장 그럴듯한 값에 높은 가중치를 주어 결과를 출력한다.
 
 ![multiclass](/DL_study/images/multiclass.png)
+
 > 그림인용 : 모두의 딥러닝 개정2판
 
 

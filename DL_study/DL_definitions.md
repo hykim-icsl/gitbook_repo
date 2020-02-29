@@ -17,6 +17,8 @@
 
 ![perceptron](/DL_study/images/perceptron.png)
 
+> 그림인용 : 모두의 딥러닝 개정2판
+
 ## Epoch
 - 학습 프로세스가 모든 샘플에 대해 한번 실행되는 것을 1 epoch
  
