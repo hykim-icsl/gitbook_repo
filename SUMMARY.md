@@ -16,6 +16,3 @@
   * [RadioML setup](env-settings/radioml.md)
 
 ## Embedded
-
-* asdf
-  * [aaa](aad/untitled2/untitled.md)
