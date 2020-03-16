@@ -31,3 +31,10 @@ docker run [OPTIONS] IMAGE[:TAG] [COMMAND]
 --it : for terminal input  
 --link : connecting container \[container name:nickname\]
 
+## 4. Docker without sudo
+
+로그인 계정을 docker 그룹에 추가
+```bash
+sudo usermod -aG docker $USER
+newgrp docker 
+```
