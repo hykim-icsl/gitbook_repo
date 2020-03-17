@@ -16,6 +16,7 @@
   * [X2go Install](env-settings/x2goindocker.md)
   * [TensorRT container](env-settings/tensorrt_docker.md)
   * [RadioML setup](env-settings/radioml.md)
+  * [vncserver setup](env-settings/vncserver_setup.md)
 
 ## Deeplearning Study
 
