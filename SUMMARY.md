@@ -5,8 +5,10 @@
 * Commands
   * [git commands](commands-shortcut/git_commands.md)
   * [Version check](commands-shortcut/version_check.md)
+  * [Python commands](commands-shortcut/python_commands.md)
+  * [Linux commands](commands-shortcut/linux_commands.md)
 
-## GNU Radio 
+## GNU Radio
 
 * Install & Setup
   * [Docker Install](env-settings/docker_install.md)
@@ -20,6 +22,5 @@
 * Basic
   * [Deeplearning 용어정리](DL_study/DL_definitions.md)
   * [NeuralNet](DL_study/Neuralnet.md)
-
 
 ## Embedded
