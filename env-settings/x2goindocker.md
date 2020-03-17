@@ -57,16 +57,10 @@ Do the below process in the container
 
 ```bash
 xhost local:root
-docker run -it \
-> -v /tmp/.X11-unix:/tmp/.X11-unix \
-> -v /dev/snd:/dev/snd \
-> -e DISPLAY=unixDISPLAY \
-> hykim/ubuntu:gnuradio
-```
+docker run -it --gpus all -p 8080:8080 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/snd:/dev/snd -e DISPLAY=unix$DISPLAY [docker image]```
 
 ### 5. Check GUI application by excuting the app
 
 ```bash
 gnuradio-companion
 ```
-

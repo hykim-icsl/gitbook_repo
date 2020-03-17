@@ -48,5 +48,4 @@ Save the config file and start a new VNC session:
 tightvncserver :1 -geometry 1366x768 -depth 24
 ```
 
-
-ref : https://www.ubuntu18.com/install-vnc-server-ubuntu-18/
+ref : <https://www.ubuntu18.com/install-vnc-server-ubuntu-18/>
