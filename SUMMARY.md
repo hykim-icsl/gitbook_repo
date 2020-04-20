@@ -27,4 +27,9 @@
   * [Deeplearning 용어정리](DL_study/DL_definitions.md)
   * [NeuralNet](DL_study/Neuralnet.md)
 
+## Compressive Sensing
+
+* Review
+  * [Sparsity Order Estimation](CS/SOE/sparsity_order_review.md)
+
 ## Embedded
