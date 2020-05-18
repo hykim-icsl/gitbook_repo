@@ -8,6 +8,11 @@
   * [Python commands](commands-shortcut/python_commands.md)
   * [Linux commands](commands-shortcut/linux_commands.md)
 
+## Python
+
+* Python
+    * [binary to float](commands-shortcut/bin2float.md)
+    
 ## GNU Radio
 
 * Env setting
